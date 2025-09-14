@@ -1,0 +1,4 @@
+az sql db import --admin-user saadmin --admin-password 1234578# \
+--name crm-database --resource-group RG-LABHUB-HOMOL --server sqldevteste \
+--storage-key TPGgM7oQ1gqc0NuFdXRiQ/V11bqKmXHvnB7xKwAvjc3kljFGu9/tP13NAH0wII1ZWMtpjFeFDrW9Mq+AStSz0Ppg== --storage-key-type "StorageAccessKey" \
+--storage-uri "https://stosqldatabases.blob.core.windows.net/sqldatabases/teste-database-2025-7-8-8-55.bacpac"
